@@ -1,0 +1,18 @@
+import Head from "next/head";
+import { Box } from "@chakra-ui/react";
+import NavBar from "./Navbar";
+
+const Layout = ({ children }) => (
+  <>
+    <Head>
+      <title>Real Estate</title>
+    </Head>
+    <Box maxWidth={1280} m="auto">
+      <header>{<NavBar />}</header>
+      <main>{children}</main>
+    </Box>
+    <footer>Footer</footer>
+  </>
+);
+
+export default Layout;
