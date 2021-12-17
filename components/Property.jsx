@@ -9,7 +9,7 @@ import defaultImage from "../assets/house.jpg";
 
 const Property = ({
   property: {
-    externalId,
+    externalID,
     coverPhoto,
     price,
     rentFrequency,
@@ -21,7 +21,7 @@ const Property = ({
     isVerified,
   },
 }) => (
-  <Link href={`/property/${externalId}`} passHref>
+  <Link href={`/property/${externalID}`} passHref>
     <Flex
       flexWrap="wrap"
       w="420px"

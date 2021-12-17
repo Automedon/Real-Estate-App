@@ -20,7 +20,7 @@ const Banner = ({
       <Text color="gray.500" fontSize="sm" fontWeight="medium">
         {purpose}
       </Text>
-      <Text fontSize="3x1" fontWeight="bold">
+      <Text fontSize="3xl" fontWeight="bold">
         {title1}
         <br />
         {title2}
